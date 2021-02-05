@@ -1,0 +1,20 @@
+{
+  "name": "jonerate",
+  "version": "1.0.0",
+  "bin": {
+    "jonerate": "bin/cli"
+  },
+  "dependencies": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/j0nl1/jonerate.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/j0nl1/jonerate/issues"
+  },
+  "homepage": "https://github.com/j0nl1/jonerate#readme"
+}
