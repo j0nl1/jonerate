@@ -1,0 +1,10 @@
+#!/usr/bin/env node
+
+const commander = require('commander');
+const generator = require('../src/generator');
+
+commander.version('0.1.0').description('Jonerate CLI').usage('<command> [options]');
+
+commander.command('node').description('Generate a node project').option('-n, --name <name>', 'Project name').action(generator.node);
+
+commander.parseAsync(process.argv);
