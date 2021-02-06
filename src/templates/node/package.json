@@ -1,0 +1,10 @@
+{
+  "name": "appname",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "npm run start:dev",
+    "start:dev": "nodemon --exec babel-node --extensions \".ts\" src/index.ts"
+  },
+  "license": "ISC"
+}
